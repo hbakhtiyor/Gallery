@@ -1,0 +1,10 @@
+# Missing field features
+
+* Add `tags` field to `Photo` entity, a user can add many related tags.
+* Add `visibility` field to `Photo` & `Album` entities, acceptable values are `public`, `private`, ``.
+* Add `created_at`, `updated_at` & `published_at` fields to all entities.
+
+# UI features
+
+* Markdown feature support to description fields.
+* ... 
