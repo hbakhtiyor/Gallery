@@ -1,3 +1,13 @@
 app:
     resource: "@GalleryBundle/Controller/"
     type:     annotation
+
+gallery:
+    type: rest
+    prefix: /api
+    resource: "@GalleryBundle/Resources/config/albums_routes.yml"
+
+# albums:
+#     type:     rest
+#     prefix:   /api
+#     resource: "@GalleryBundle/Controller/AlbumsController.php"
