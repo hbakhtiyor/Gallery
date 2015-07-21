@@ -42,6 +42,11 @@ class Photo
      */
     private $description;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="Album", inversedBy="photos") 
+     * @ORM\JoinColumn(name="album_id", referencedColumnName="id")
+     */
+    private $album;
 
     /**
      * Get id
@@ -120,5 +125,28 @@ class Photo
     public function getDescription()
     {
         return $this->description;
+    }
+
+    /**
+     * Set album
+     *
+     * @param Album $album
+     * @return Photo
+     */
+    public function setAlbum(Album $album = null)
+    {
+        $this->album = $album;
+
+        return $this;
+    }
+
+    /**
+     * Get album
+     *
+     * @return Album 
+     */
+    public function getAlbum()
+    {
+        return $this->album;
     }
 }
