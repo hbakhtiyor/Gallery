@@ -1,0 +1,4 @@
+services:
+#    nil_gallery.example:
+#        class: Nil\GalleryBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,13 +1,8 @@
+nil_gallery:
+    type:     rest
+    resource: "@NilGalleryBundle/Resources/config/routing.yml"
+    prefix:   /api
+
 app:
-    resource: "@GalleryBundle/Controller/"
+    resource: "@AppBundle/Controller/"
     type:     annotation
-
-gallery:
-    type: rest
-    prefix: /api
-    resource: "@GalleryBundle/Resources/config/albums_routes.yml"
-
-# albums:
-#     type:     rest
-#     prefix:   /api
-#     resource: "@GalleryBundle/Controller/AlbumsController.php"

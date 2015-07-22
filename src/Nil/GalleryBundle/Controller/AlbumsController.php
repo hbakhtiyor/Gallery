@@ -1,8 +1,8 @@
 <?php
 
-namespace GalleryBundle\Controller;
+namespace Nil\GalleryBundle\Controller;
 
-use GalleryBundle\Entity\Album;
+use Nil\GalleryBundle\Entity\Album;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use FOS\RestBundle\Controller\FOSRestController;

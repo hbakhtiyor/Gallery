@@ -1,0 +1,9 @@
+albums:
+    type:     rest
+    resource: "@NilGalleryBundle/Controller/AlbumsController.php"
+
+photos:
+    type:     rest
+    parent:   albums
+    resource: "@NilGalleryBundle/Controller/PhotosController.php"
+    name_prefix: api_

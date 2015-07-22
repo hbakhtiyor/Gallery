@@ -1,6 +1,6 @@
 <?php
 
-namespace GalleryBundle\Entity;
+namespace Nil\GalleryBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\Common\Collections\ArrayCollection;

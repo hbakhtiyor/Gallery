@@ -1,9 +1,9 @@
 <?php
 
-namespace GalleryBundle;
+namespace AppBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class GalleryBundle extends Bundle
+class AppBundle extends Bundle
 {
 }
